@@ -1,0 +1,292 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+    
+}
+header{
+    margin-bottom: 20px;
+    border: 2px solid yellow;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    
+    
+}
+#intro-site{
+    display: flex;
+    position: fixed;
+    background-color: #5219d6e8;
+    height: 79px;
+    
+}
+.title-site{
+    margin-top: 14px;
+    position: relative;
+    left: 45%;
+}
+.title-site span{
+    display: flex;
+    font-size: 44px;
+    font-family: fantasy;
+    font-style: italic;
+    vertical-align: middle;
+    letter-spacing: 17px;
+    line-height: .5;
+    
+}
+.dma{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position: relative;
+    left: 235px;
+}
+.title-site h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+.title-site small{
+    letter-spacing: 6px;
+    color: gray;
+}
+#cancel-nav{
+background-color: black;
+width: 100%;
+height: 100vh;    
+position: fixed;
+top: -900px;
+right: 0;
+}
+#cancel-nav a{
+    margin-right: 100px
+    
+}
+#cancel-nav button{
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+#cancel-nav button:hover{
+    background-color: yellow;
+}
+#cancel-nav img{
+    width: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+    
+}
+
+#share-btn{
+    width: 50px;
+    position: fixed;
+    /* z-index: 2; */
+    top: 20px;
+    left: 75px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+    
+}
+#share-btn:hover{
+    content: '';
+    background-color: yellow;
+    
+}
+#phone-nav{
+position: fixed;
+/* z-index: 3; */
+top: -900;
+right: 0; 
+width: 100%;
+background-color: black;
+cursor: pointer;
+height: 100vh;
+
+} 
+#phone-nav .telephone:hover{
+color: yellow;
+}
+#phone-nav .whatsapp:hover{
+color: yellow;    
+}
+
+#phone-nav img{
+    width: 48px;
+    background: wheat;
+    margin-right: 50px;
+    margin-left: 4px;
+    position: relative;
+    top: 10px;
+}
+#phone-btn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    /* z-index: 4; */
+    top: 20px;
+    left: 175px;
+    border: 0.3px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+} 
+#phone-btn:hover{
+    background-color: yellow;
+} 
+.section-left{
+    flex-basis: 55%;
+}
+/* the section of mune */
+#mune{
+    justify-content: space-around - space-between;
+    position: relative;
+    left: 400px;
+    flex-basis: 45%;
+}
+#mune-nav{
+    position: fixed;
+    top: -900px;
+    /* z-index: 5; */
+    background-color: black;
+    width: 300%;
+    
+}
+#cancel-mune{
+    width: 45px;
+    top: 20px;
+    left: 75px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#mune-nav ul{
+    list-style: none;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+#mune-nav ul li{
+    color: white;
+}
+#mune-nav ul li a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700; 
+}
+#mune-nav ul li a:hover{
+    color: yellow;
+}
+.floot-mune hr{
+    margin-top: 45px;
+    width: 350px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.floot-mune hr:hover{
+    border-color: yellow ;
+}
+.floot-mune img{
+    width: 30px;
+    background-color: #ccc;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+.floot-mune img:hover{
+    background-color: yellow;
+}
+#mune-img{
+    width: 42px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+img #mune-img{
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* image intro website-->Dma Plus */
+/* .imge-intro-site{
+    margin-top: 30px;
+} */
+.imge-intro-site img{
+    width: 1260px;
+    margin-top: 60px;
+    padding: 15px 25px;
+    padding-left: 18px;
+}
+.imge-intro-site{
+    margin-bottom: 25px;
+}
+
+/* section is about website DMA PLUS */
+
+
+.about h2{
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    align-content: space-evenly;
+}
+.about p{
+    width: 442px;
+}
+.about button{
+    margin-top: 60px;
+    border: none;
+    outline: none;
+    background-color: yellow;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1px;
+    padding-top: 3px;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+.about button hr{
+    border: 2px black;
+    border-style: dashed;
+    
+}
+#twasal-about{
+    font-weight: 400;
+}
+
+/* twasal mune */
+#twasal-mune{
+    display: inline-block;
+    position: fixed;
+    
+    
+}
+/* #cancel-twasal-mune{
+
+} */
